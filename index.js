@@ -1,5 +1,4 @@
 document.getElementById('loadButton').addEventListener('click', function(event) {
-    event.preventDefault();
     document.getElementById('loader').style.display = 'block';
 
     setTimeout(function() {
